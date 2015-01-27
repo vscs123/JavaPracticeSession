@@ -14,7 +14,7 @@ public class EqualsMethodExample {
 		e1.setId(100);
 		e2.setId(100);
 		System.out.println(e2.getId() == e3);
-		System.out.println(e1.equals(e2));
+		System.out.println(e1.getId() == e2.getId());
 		Set<Employ> employees = new HashSet<Employ>();
 		employees.add(e1);
 		employees.add(e2);
